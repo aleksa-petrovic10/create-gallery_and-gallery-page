@@ -1,0 +1,18 @@
+{
+    "login": {
+        "email" : "#email",
+        "password" : "#password",
+        "submit" : "button[type='submit']",
+        "loginButton" : "a[href='/login']"
+    },
+
+    "gallery" : {
+        "createGallButton" : "a[href='/create']",
+        "title" : "#title",
+        "description" : "#description",
+        "image" : ":nth-child(2) > .input-group > .form-control",
+        "addImageButton" : "button",
+        "submit" : "form > :nth-child(4)",
+        "cancel" : "form > :nth-child(5)"
+    }
+}
